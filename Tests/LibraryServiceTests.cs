@@ -18,10 +18,21 @@ namespace Blazor_Lab_Starter_Code.Tests {
             borrowedBooks = new Dictionary<User, List<Book>>();
         }
 
+        [TestMethod]
+        public void FailingTest()
+        {
+            Assert.AreEqual(1, 2); // FAILURE
+        }
+
+
+
+
+
         [Test]
         public void AddBook_ShouldAddBookToList() {
             // Arrange
-            var book = new Book { Id = 1, Title = "Test Book", Author = "Test Author", ISBN = "12345" };
+            // MISTAKE HERE
+            var book = new Book { Id = 1, Title = "Test Book", Author = "Test Author", ISBN = "12345"  122 };
 
             // Act
             books.Add(book);
