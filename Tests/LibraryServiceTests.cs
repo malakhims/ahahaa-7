@@ -23,7 +23,7 @@ namespace Blazor_Lab_Starter_Code.Tests {
         public void AddBook_ShouldAddBookToList() {
             // Arrange
             // MISTAKE HERE
-            var book = new Book { Id = 1, Title = "Test Book", Author = "Test Author", ISBN = "12345"  122 };
+            var book = new Book { Id = 1, Title = "Test Book", Author = "Test Author", ISBN = "12345"};
 
             // Act
             books.Add(book);
