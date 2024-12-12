@@ -21,7 +21,7 @@ namespace Blazor_Lab_Starter_Code.Tests {
         [TestMethod]
         public void FailingTest()
         {
-            Assert.AreEqual(1, 2); // FAILURE
+            Assert.AreEqual(1, 5); // FAILURE
         }
 
 
