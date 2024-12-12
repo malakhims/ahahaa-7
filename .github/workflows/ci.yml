@@ -25,5 +25,8 @@ jobs:
     - name: Build main project
       run: dotnet build "Blazor Lab Starter Code\Blazor Lab Starter Code.csproj" --no-restore
 
+    - name: Restore dependencies for test project
+      run: dotnet restore "Tests\Blazor Lab Starter Code.Tests.csproj"
+
     - name: Test project
-      run: dotnet test "Tests\Blazor Lab Starter Code.Tests.csproj" --no-build --verbosity normal
+      run: dotnet test "Tests\Blazor Lab Starter Code.Tests.csproj" --no-build --verbosity normal --configuration Release

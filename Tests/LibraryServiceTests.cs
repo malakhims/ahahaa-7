@@ -18,15 +18,6 @@ namespace Blazor_Lab_Starter_Code.Tests {
             borrowedBooks = new Dictionary<User, List<Book>>();
         }
 
-        [TestMethod]
-        public void FailingTest()
-        {
-            Assert.AreEqual(1, 5); // FAILURE
-        }
-
-
-
-
 
         [Test]
         public void AddBook_ShouldAddBookToList() {
