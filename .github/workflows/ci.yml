@@ -20,10 +20,10 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Restore dependencies for main project
-      run: dotnet restore path/to/your/main/project.csproj
+      run: dotnet restore "Blazor Lab Starter Code\Blazor Lab Starter Code.csproj"
 
     - name: Build main project
-      run: dotnet build "Blazor Lab Starter Code.sln" --no-restore
+      run: dotnet build "Blazor Lab Starter Code\Blazor Lab Starter Code.csproj" --no-restore
 
     - name: Test project
       run: dotnet test "Tests\Blazor Lab Starter Code.Tests.csproj" --no-build --verbosity normal
