@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab5\\labcode\\Tests\\Blazor Lab Starter Code.Tests.csproj": {}
+    "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab 7\\Tests\\Blazor Lab Starter Code.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab5\\labcode\\Blazor Lab Starter Code\\Blazor Lab Starter Code.csproj": {
+    "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab 7\\Blazor Lab Starter Code\\Blazor Lab Starter Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab5\\labcode\\Blazor Lab Starter Code\\Blazor Lab Starter Code.csproj",
+        "projectUniqueName": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab 7\\Blazor Lab Starter Code\\Blazor Lab Starter Code.csproj",
         "projectName": "Blazor Lab Starter Code",
-        "projectPath": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab5\\labcode\\Blazor Lab Starter Code\\Blazor Lab Starter Code.csproj",
+        "projectPath": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab 7\\Blazor Lab Starter Code\\Blazor Lab Starter Code.csproj",
         "packagesPath": "C:\\Users\\TJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab5\\labcode\\Blazor Lab Starter Code\\obj\\",
+        "outputPath": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab 7\\Blazor Lab Starter Code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab5\\labcode\\Tests\\Blazor Lab Starter Code.Tests.csproj": {
+    "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab 7\\Tests\\Blazor Lab Starter Code.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab5\\labcode\\Tests\\Blazor Lab Starter Code.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab 7\\Tests\\Blazor Lab Starter Code.Tests.csproj",
         "projectName": "Blazor Lab Starter Code.Tests",
-        "projectPath": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab5\\labcode\\Tests\\Blazor Lab Starter Code.Tests.csproj",
+        "projectPath": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab 7\\Tests\\Blazor Lab Starter Code.Tests.csproj",
         "packagesPath": "C:\\Users\\TJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab5\\labcode\\Tests\\obj\\",
+        "outputPath": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab 7\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -112,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab5\\labcode\\Blazor Lab Starter Code\\Blazor Lab Starter Code.csproj": {
-                "projectPath": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab5\\labcode\\Blazor Lab Starter Code\\Blazor Lab Starter Code.csproj"
+              "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab 7\\Blazor Lab Starter Code\\Blazor Lab Starter Code.csproj": {
+                "projectPath": "C:\\Users\\TJ\\Desktop\\CODE\\server-side\\lab 7\\Blazor Lab Starter Code\\Blazor Lab Starter Code.csproj"
               }
             }
           }
@@ -133,9 +133,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.7.2, )"
+              "version": "[17.5.0, )"
             },
             "NUnit": {
               "target": "Package",
